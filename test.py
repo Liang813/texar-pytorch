@@ -1,4 +1,4 @@
-# -*-coding:GBK -*-
+
 import numpy as np
 import torch
 
@@ -7,4 +7,4 @@ print(a)
 
 b = np.array([1, 2, 3, 4, 5], dtype=np.long)
 print(b.dtype)
-print("在windows环境下运行会显示为int32！")
+print("If you run it in windows, it will show up as int32!")
